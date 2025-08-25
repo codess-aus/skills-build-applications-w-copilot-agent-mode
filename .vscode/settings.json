@@ -1,0 +1,24 @@
+{
+  // 1. Automatically save files after a short delay
+  "files.autoSave": "afterDelay",           // Enable auto-save
+  "files.autoSaveDelay": 1000,              // Delay in ms (1 second)
+
+  // 2. Maximum request count (commonly used by extensions, e.g., Copilot)
+  // For GitHub Copilot, max requests per 10 seconds (if extension supports)
+  "github.copilot.maxRequestCount": 20,     // Example: Copilot concurrent requests
+
+  // 3. Enable "Thinking Tool" (example key for a hypothetical extension)
+  // If you have an extension named "Thinking Tool", enable it:
+  "thinkingTool.enabled": true,              // Enable the tool (replace with your extension's config key)
+
+  // 4. Auto-approve (for extensions or workflows)
+  "autoApprove.enabled": true,               // Enable auto-approve (replace with your extension's config key)
+
+  // 5. Enable To-Do List (for extensions like "Todo Tree")
+  "todo-tree.tree.showScanModeButton": true, // Show scan mode button in Todo Tree
+  "todo-tree.highlights.enabled": true,      // Highlight TODOs in code
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME"
+  ]                                          // Tags for to-do comments
+}
