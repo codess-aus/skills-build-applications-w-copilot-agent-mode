@@ -1,3 +1,9 @@
+# Force DRF to use JSONRenderer only
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+    ]
+}
 """
 Django settings for octofit_tracker project.
 
@@ -25,7 +31,12 @@ SECRET_KEY = "django-insecure-zm1t*#xz$pm21i@od*%*^hwte=f&esp2if)bu8h#8e^a#*rwkm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'studious-xylophone-rxr9pgx7742xqv6-8000.app.github.dev',
+    '*',
+]
 
 
 # Application definition
