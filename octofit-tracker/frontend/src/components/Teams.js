@@ -2,7 +2,7 @@
 // OctoFit Tracker - Teams Component
 // Uses Codespace Django REST API endpoint
 
-const TEAMS_API = 'https://USERNAME-8000.app.github.dev/api/teams';
+const TEAMS_API = 'https://studious-xylophone-rxr9pgx7742xqv6.github.dev-8000.app.github.dev/api/teams';
 
 export default function Teams() {
   // Example fetch usage

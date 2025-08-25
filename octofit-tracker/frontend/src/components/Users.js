@@ -2,7 +2,7 @@
 // OctoFit Tracker - Users Component
 // Uses Codespace Django REST API endpoint
 
-const USERS_API = 'https://USERNAME-8000.app.github.dev/api/users';
+const USERS_API = 'https://studious-xylophone-rxr9pgx7742xqv6.github.dev-8000.app.github.dev/api/users';
 
 export default function Users() {
   // Example fetch usage

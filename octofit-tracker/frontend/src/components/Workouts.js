@@ -2,7 +2,7 @@
 // OctoFit Tracker - Workouts Component
 // Uses Codespace Django REST API endpoint
 
-const WORKOUTS_API = 'https://USERNAME-8000.app.github.dev/api/workouts';
+const WORKOUTS_API = 'https://studious-xylophone-rxr9pgx7742xqv6.github.dev-8000.app.github.dev/api/workouts';
 
 export default function Workouts() {
   // Example fetch usage

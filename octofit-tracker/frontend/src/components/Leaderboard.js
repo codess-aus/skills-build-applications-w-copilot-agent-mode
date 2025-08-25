@@ -2,7 +2,7 @@
 // OctoFit Tracker - Leaderboard Component
 // Uses Codespace Django REST API endpoint
 
-const LEADERBOARD_API = 'https://USERNAME-8000.app.github.dev/api/leaderboard';
+const LEADERBOARD_API = 'https://studious-xylophone-rxr9pgx7742xqv6.github.dev-8000.app.github.dev/api/leaderboard';
 
 export default function Leaderboard() {
   // Example fetch usage
